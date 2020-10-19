@@ -11,7 +11,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData().copyWith(
-//        primaryColor: HexColor('5B654A'),
         primaryColor: HexColor('5B654A'),
         scaffoldBackgroundColor: HexColor('EEEEEE'),
       ),

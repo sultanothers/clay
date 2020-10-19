@@ -1,29 +1,6 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:clay/util/hex_color.dart';
-
-class ReusableCard1 extends StatelessWidget {
-  ReusableCard1({@required this.colour, this.cardChild, this.onPress});
-
-  final Color colour;
-  final Widget cardChild;
-  final Function onPress;
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onPress,
-      child: Container(
-        height: 500,
-        child: cardChild,
-        margin: EdgeInsets.all(8.0),
-        decoration: BoxDecoration(
-          color: colour,
-          borderRadius: BorderRadius.circular(8.0),
-        ),
-      ),
-    );
-  }
-}
 
 class ReusableCard extends StatelessWidget {
   ReusableCard({@required this.onPress, @required this.imageProduct, @required this.titleProduct, @required this.descriptionProduct, @required this.priceProduct});
@@ -32,6 +9,8 @@ class ReusableCard extends StatelessWidget {
   final String titleProduct;
   final String descriptionProduct;
   final String priceProduct;
+
+  double height = 100;
 
   @override
   Widget build(BuildContext context) {
@@ -99,8 +78,8 @@ class ReusableCard extends StatelessWidget {
                   ),
                 ),
               ),
-              bottom: 50,
               right: 0.0,
+              bottom: height * 0.48,
             ),
           ],
         ),
