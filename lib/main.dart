@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:clay/pages/HomePage.dart';
+import 'package:claybotanicals/pages/HomePage.dart';
 import 'util/hex_color.dart';
 
 void main() {

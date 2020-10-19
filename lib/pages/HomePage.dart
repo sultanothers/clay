@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:clay/components/GridProduct.dart';
+import 'package:claybotanicals/components/GridProduct.dart';
 import '../components/ImageBanner.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import '../components/CurveBackground.dart';

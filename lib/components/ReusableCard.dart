@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:clay/util/hex_color.dart';
+import 'package:claybotanicals/util/hex_color.dart';
 
 class ReusableCard extends StatelessWidget {
   ReusableCard({@required this.onPress, @required this.imageProduct, @required this.titleProduct, @required this.descriptionProduct, @required this.priceProduct});

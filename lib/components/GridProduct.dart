@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:clay/components/ReusableCard.dart';
+import 'package:claybotanicals/components/ReusableCard.dart';
 
 class Products extends StatefulWidget {
   @override

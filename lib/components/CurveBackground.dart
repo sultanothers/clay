@@ -1,4 +1,4 @@
-import 'package:clay/util/hex_color.dart';
+import 'package:claybotanicals/util/hex_color.dart';
 import 'package:flutter/material.dart';
 
 class CurvePainter extends CustomPainter {
