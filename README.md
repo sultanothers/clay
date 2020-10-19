@@ -1,4 +1,4 @@
-# clay
+# claybotanicals
 
 A new Flutter application.
 
